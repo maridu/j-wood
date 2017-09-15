@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jason Wood</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="logo-wrapper">
+     <img src="images/logo.png" alt="Logo" class="logo" width="721"  height="573">
+    </div>
+
+    <nav class="main-nav">
+      <input type="checkbox" name="menu-toggle" class="main-nav__toggle" id="main-nav__toggle">
+      <label for="main-nav__toggle" class="main-nav__label">
+        <span class="visually-hidden">Menu</span>
+      </label>
+      <ul class="navigation">
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link">Home</a></li>
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link">About me</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#portfolio" class="navigation__link">Portfolio</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#contact" class="navigation__link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="visually-hidden" id="home">Jason Wood, photographer</h1>
+    <p class="scroll">Scroll down to see more</p>
+    <a href="#portfolio" class="btn-scroll"><span class="visually-hidden">Scroll down</span></a>
+ </header>
+
+ <main class="main-container">
+
+   <section class="about">
+    <ul class="navigation">
+      <li class="navigation__item">
+        <a href="#home" class="navigation__link">Home</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#about" class="navigation__link">About me</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#portfolio" class="navigation__link">Portfolio</a>
+      </li>
+      <li class="navigation__item">
+        <a href="#contact" class="navigation__link">Contact</a>
+      </li>
+    </ul>
+    <div class="inner-wrapper about__inner-wrapper">
+      <div class="img-wrapper about__img-wrapper">
+        <img src="images/jason_wood.jpg" alt="Jason Wood" width="771" height="770">
+      </div>
+      <h2 class="section-title about__title" id="about">About me</h2>
+      <p class="about__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="about__info">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <img src="images/signature.png" alt="Jason Wood" width="157" height="22" class="about__signature">
+    </div>
+    <p class="scroll">Keep scrolling. There is still more to come.</p>
+    <a href="#portfolio" class="btn-scroll"><span class="visually-hidden">Scroll down</span></a>
+   </section> <!-- end about section-->
+
+    <section class="portfolio">
+      <ul class="navigation portfolio__navigation">
+        <li class="navigation__item">
+         <a href="#home" class="navigation__link">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link">About me</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#portfolio" class="navigation__link">Portfolio</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#contact" class="navigation__link">Contact</a>
+        </li>
+      </ul>
+      <div class="inner-wrapper portfolio__inner-wrapper">
+        <h2 id="portfolio" class="section-title portfolio__title">Portfolio</h2>
+        <ul class="portfolio__list">
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-1.jpg" alt="The valley" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-2.jpg" alt="The smiling girl"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-3.jpg" alt="The bridge" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-4.jpg" alt="The girl on the stump" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-5.jpg" alt="The lake" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-6.jpg" alt="The couple" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-7.jpg" alt="The green branches" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-8.jpg" alt="The guy with the baseball cap" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-9.jpg" alt="On the hill" width="279" height="250"></a></li>
+          <li class="portfolio__item"><a href="#"><img src="images/portfolio-10.jpg" alt="The guy's profile" width="279" height="250"></a></li>
+        </ul>
+      </div>
+      <p class="scroll">Do you want to see it with your own eyes? Scroll!</p>
+      <a href="#contact" class="btn-scroll"><span class="visually-hidden">Scroll down</span></a>
+    </section> <!--  end portfolio section-->
+
+    <section class="contact">
+      <ul class="navigation contact__navigation">
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link">Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#about" class="navigation__link">About me</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#portfolio" class="navigation__link">Portfolio</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#contact" class="navigation__link">Contact</a>
+        </li>
+      </ul>
+      <h2 class="visually-hidden title contact__title" id="contact">My contacts</h2>
+      <p class="contact__label">Mail:</p>
+      <p class="contact__mail" ><a href="mailto:jason@wood.com" class="contact__link">jason@wood.com</a></p>
+      <p class="contact__label">Phone:</p>
+      <p class="contact__phone">+44 212 432 444</p>
+      <p class="contact__label">Social media</p>
+      <ul class="social__list">
+        <li class="social__item"><a class="social__link social__link_fb" href="#"><span class="visually-hidden">Facebook</span></a></li>
+        <li class="social__item"><a class="social__link social__link_tw" href="#"><span class="visually-hidden">Twitter</span></a></li>
+        <li class="social__item"><a class="social__link social__link_in" href="#"><span class="visually-hidden">Instagram</span></a></li>
+      </ul>
+    </section> <!--    end contact section-->
+
+  </main>
+
+  <footer>
+    <p class="copyright">DESIGNED by Pawel szymankiewicz</p>
+  </footer>
+</body>
+</html>
